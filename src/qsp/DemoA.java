@@ -20,7 +20,7 @@ public class DemoA {
 //		
 //		WebDriver driver =new RemoteWebDriver(r,d);
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-		
+		d.setBrowserName("chrome");
 		WebDriver driver=new ChromeDriver();
 		
 		driver.quit();
